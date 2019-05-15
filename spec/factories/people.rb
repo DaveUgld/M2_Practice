@@ -1,0 +1,9 @@
+FactoryBot.define do
+  factory :person do
+    identification { 1 }
+    phone_number { "MyString" }
+    first_name { "MyString" }
+    last_name { "MyString" }
+    user { nil }
+  end
+end
